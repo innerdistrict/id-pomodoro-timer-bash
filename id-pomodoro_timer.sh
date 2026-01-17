@@ -43,9 +43,6 @@ while [[ $# -gt 0 ]]; do
     esac
 done
 
-# Clear screen
-clear
-
 # Convert minutes to seconds
 WORK_DURATION=$((WORK_MINUTES * 60))
 BREAK_DURATION=$((BREAK_MINUTES * 60))
@@ -72,6 +69,9 @@ countdown() {
         echo -e "\n\n${session_type} completed! Time to get back to work."
     fi
 }
+
+# Clear the screen
+clear
 
 echo -e "${WHITE}id Pomodoro Timer Has Started! Press Ctrl+C to stop.${ENDC}"
 
