@@ -96,6 +96,5 @@ echo -e "${WHITE}id Pomodoro Timer Has Started! Press Ctrl+C to stop.${ENDC}"
 trap 'echo -e "\n\n${WHITE}id Pomodoro session ended. Completed $((sessions_completed-1)) work sessions.${ENDC}"; exit 0' INT
 
 # run the timer
-#
 timer
 
