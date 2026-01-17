@@ -84,8 +84,7 @@ timer() {
       echo "Taking a short break..."
       countdown $BREAK_DURATION "Short Break"
     fi
-  done
-      
+  done      
 }
 
 # clear the screen
